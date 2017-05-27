@@ -1,0 +1,9 @@
+{
+    "devDependencies": {
+        "flow-bin": "^0.47.0",
+        "flow-remove-types": "^1.2.1"
+    },
+    "scripts": {
+        "build": "flow-remove-types --pretty kernel-src/ -d src/Elm/Kernel/"
+    }
+}
