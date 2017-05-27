@@ -20,3 +20,6 @@ declare type __Utils_Ord_Gt = 'GT';
 declare type __Utils_Ord = __Utils_Ord_LT | __Utils_Ord_EQ | __Utils_Ord_GT;
 
 declare type __Utils_compare<T> = Fn2<T, T, __Utils_Ord>;
+
+declare var __Utils_Tuple0: Tuple0;
+declare function __Utils_Tuple2<X, Y>(x: X, y: Y): Tuple2<X, Y>;
